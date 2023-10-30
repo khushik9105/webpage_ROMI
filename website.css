@@ -1,0 +1,16 @@
+#flex ul{
+    display:inline-flex;
+    flex-direction: row;
+    color:black;
+    height:30px;
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+
+}
+   
+   
+
+#container{
+    display:flex;
+}

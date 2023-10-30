@@ -1,0 +1,99 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+#first{
+    margin:50px;
+
+}
+#second{
+    margin: 50px;
+}
+#last{
+    align-items: center;
+    height:300px;
+    width:1300px;
+}
+
+#table_2{
+    float:right;
+    width:600px;
+    height:200px;
+    border:1px solid white;
+}
+
+#row{
+    display:inline-flex;
+    justify-content:center;
+  
+
+}
+#column{
+    display:inline-flex;
+    justify-content: space-around;
+  
+
+}
+
+#table_3{
+    
+    width:500px;
+    height:200px;
+    border:1px solid white;
+}
+
+#table_4{
+    float: right;
+    width:500px;
+    height:200px;
+    border:1px solid white;
+}
+select {
+    width: 10px; /* Adjust the width as needed */
+    background: transparent;
+    border: none;
+}
+
+#final{
+    margin:50px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    overflow-x: auto; 
+}
+
+.my-table {
+    border-collapse: collapse;
+    width: calc(50% - 20px); 
+    border: 1px solid white;
+    margin-bottom: 20px; 
+}
+.heading{
+    font-size: 36px;
+}
+
+.my-table th,
+.my-table td {
+    text-align: left;
+    padding: 5px;
+    border: none;
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+    .my-table {
+        width: 100%;
+    }
+}
+select {
+    width: 10px; 
+    background: transparent;
+    border: none;
+}
